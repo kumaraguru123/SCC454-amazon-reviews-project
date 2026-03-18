@@ -47,8 +47,6 @@ Handling missing values
 
 Creating a clean subset
 
-📁 src/recommendation/
-
 🔹 2. Database Integration
 
 SQLite
@@ -57,16 +55,11 @@ DuckDB
 
 MongoDB Atlas
 
-
-📁 src/data/
-
 🔹 3. Feature Engineering
 
 User behaviour features
 
 Product features (including TF-IDF for text data)
-
-📁 src/features/
 
 🔹 4. Clustering
 
@@ -82,15 +75,11 @@ User Clustering:
 
 Agglomerative Clustering
 
-📁 src/clustering/
-
 🔹 5. Similarity Analysis
 
 Product similarity computation
 
 Benchmarking similarity methods
-
-📁 src/similarity/
 
 🔹 6. Recommendation System
 
@@ -98,14 +87,9 @@ Collaborative filtering
 
 Similarity-based recommendation
 
-
-📁 src/database/
-
 🔹 7. Visualization
 
 Graphs and plots for evaluation
-
-📁 src/visualization/
 
 📁 Project Structure
 SCC454-amazon-reviews-project/
@@ -124,6 +108,7 @@ SCC454-amazon-reviews-project/
 ├── data/
 ├── outputs/
 ├── reports/
+
 🚀 How to Run
 1. Clone the Repository
 git clone https://github.com/kumaraguru123/SCC454-amazon-reviews-project
