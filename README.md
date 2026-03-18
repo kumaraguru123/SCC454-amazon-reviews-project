@@ -38,6 +38,7 @@ Clustering results
 Similarity outputs
 
 ⚙️ Project Pipeline
+
 🔹 1. Data Preprocessing
 
 Data cleaning and filtering
@@ -46,9 +47,20 @@ Handling missing values
 
 Creating a clean subset
 
+📁 src/recommendation/
+
+🔹 2. Database Integration
+
+SQLite
+
+DuckDB
+
+MongoDB Atlas
+
+
 📁 src/data/
 
-🔹 2. Feature Engineering
+🔹 3. Feature Engineering
 
 User behaviour features
 
@@ -56,7 +68,8 @@ Product features (including TF-IDF for text data)
 
 📁 src/features/
 
-🔹 3. Clustering
+🔹 4. Clustering
+
 Product Clustering:
 
 K-Means
@@ -71,7 +84,7 @@ Agglomerative Clustering
 
 📁 src/clustering/
 
-🔹 4. Similarity Analysis
+🔹 5. Similarity Analysis
 
 Product similarity computation
 
@@ -79,21 +92,12 @@ Benchmarking similarity methods
 
 📁 src/similarity/
 
-🔹 5. Recommendation System
+🔹 6. Recommendation System
 
 Collaborative filtering
 
 Similarity-based recommendation
 
-📁 src/recommendation/
-
-🔹 6. Database Integration
-
-SQLite
-
-DuckDB
-
-MongoDB Atlas
 
 📁 src/database/
 
@@ -182,9 +186,9 @@ Advanced evaluation metrics
 
 👨‍💻 Author
 
-Kumaraguru
-B.Sc Computer Technology
-Final Year Project
+Kumaraguru Kumar
+Sandeep R
+
 
 📄 License
 
