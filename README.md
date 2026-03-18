@@ -124,15 +124,14 @@ SCC454-amazon-reviews-project/
 1. Clone the Repository
 git clone https://github.com/kumaraguru123/SCC454-amazon-reviews-project
 cd SCC454-amazon-reviews-project
-2. Install Dependencies
-pip install -r requirements.txt
-3. Run the Pipeline
+2. Run the Pipeline
 python src/data/build_clean_subset.py
 python src/features/build_user_features.py
 python src/features/build_product_features.py
 python src/clustering/product_clustering_kmeans.py
 python src/similarity/task2_similarity_all.py
 python src/recommendation/task4_recommendation.py
+
 📊 Techniques Used
 Machine Learning
 
